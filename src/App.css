@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  font-family: 'Poppins';
+
+}
+body {
+  font-family: 'Poppins';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.home-section {
+  background-color: #f0f8ff;
+}
+
+.about-section {
+  background-color: #fdfd96;
+}
+
+.gallery-section {
+  background-color: #d3f8e2;
+}
+
+.services-section {
+  background-color: #ffc3a0;
+}
+
+.contact-section {
+  background-color: #ffaaaa;
+}
+
+form input, form textarea, form button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+}
